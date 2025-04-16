@@ -1,0 +1,51 @@
+.sidebar {
+    width: 60px;
+    background-color: #1e1e2f;
+    color: white;
+    transition: width 0.8s ease;
+    overflow: hidden;
+  }
+  
+  .sidebar:hover {
+    width: 350px;
+  }
+  
+  .nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-list li {
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+  }
+  
+  .nav-list li a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    min-width: 24px;
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  
+  .text {
+    white-space: nowrap;
+    overflow: hidden;
+    opacity: 0;
+    width: 0;
+    transition: opacity 0.3s ease, width 0.3s ease;
+  }
+  
+  /* Pokazujemy tekst tylko po rozwinięciu sidebaru */
+  .sidebar:hover .text {
+    opacity: 1;
+    width: auto;
+  }
+  
