@@ -1,11 +1,16 @@
 .sidebar {
-    width: 60px;
+    width: 80px;
     background-color: #1e1e2f;
     color: white;
+    margin-right: 20px;
     transition: width 0.8s ease;
     overflow: hidden;
+    border-radius: 0 5px 5px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    
   }
-  
+
   .sidebar:hover {
     width: 350px;
   }
@@ -30,6 +35,8 @@
   }
   
   .icon {
+    display: flex;
+    align-items: center;
     min-width: 24px;
     margin-right: 10px;
     font-size: 20px;
@@ -43,9 +50,54 @@
     transition: opacity 0.3s ease, width 0.3s ease;
   }
   
-  /* Pokazujemy tekst tylko po rozwinięciu sidebaru */
   .sidebar:hover .text {
     opacity: 1;
     width: auto;
   }
   
+  /* Logo style */
+  .logo {
+    opacity: 0;
+    max-width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    transition: opacity 0.4s ease, max-width 0.4s ease;
+  }
+  
+  .sidebar:hover .logo {
+    opacity: 1;
+    max-width: 200px;
+    margin-left: 20px;
+  }
+
+  .logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s ease;
+    padding: 0;
+    background-color: #1e1e2f;
+    border-radius: 0 5px 5px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .sidebar:hover .logo-container {
+    padding: 20px;
+  }
+
+  .logo-icon {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    opacity: 1;
+    border: 2px solid #00bfff; /* błękitny */
+    box-shadow: 0 0 10px rgba(0, 191, 255, 0.6);
+    transition: all 0.4s ease; /* lub konkretniejsze właściwości */
+    transform: scale(1);
+    padding: 0;
+  }
+  
+  .sidebar:hover .logo-icon {
+    transform: scale(1.5);
+  }
+  /* END */
