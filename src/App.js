@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
+import { HashRouter as Router, Routes, Route, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
@@ -15,6 +15,7 @@ function AnimatedRoutes() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="*" element={<Home />} /> {/* fallback na Home */}
       </Routes>
     </AnimatePresence>
   );
@@ -26,7 +27,7 @@ function App() {
       <div className="app-container">
         <Navbar />
         <main className="main-content">
-          <AnimatedRoutes />
+        <AnimatedRoutes />
         </main>
       </div>
     </Router>

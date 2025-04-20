@@ -1,0 +1,131 @@
+.home-container {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 2rem;
+    background-color: #f4f4f8;
+    gap: 3rem;
+    border-radius: 23px;
+    box-sizing: border-box;
+  }
+  
+  
+  
+  .logo-container-home {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .home-page-icon {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .home-text {
+    max-width: 600px;
+    text-align: left;
+  }
+  
+  .home-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .home-subtitle {
+    font-size: 1.4rem;
+    color: #666;
+    margin-bottom: 1rem;
+  }
+  
+  .home-description {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 2rem;
+  }
+  
+  .home-buttons {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+  }
+  
+  .btn-primary {
+    background-color: #8f5cf7;
+    color: white;
+    padding: 0.7rem 1.5rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    transition: 0.2s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #7a47e0;
+  }
+  
+  .btn-secondary {
+    background-color: transparent;
+    color: #8f5cf7;
+    border: 2px solid #8f5cf7;
+    padding: 0.7rem 1.5rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.2s ease;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #f2eaff;
+  }
+  
+  .home-socials {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .home-socials a {
+    color: #1e1e2f;
+    transition: transform 0.2s ease;
+  }
+  
+  .home-socials a:hover {
+    transform: scale(1.2);
+  }
+  
+  @media screen and (max-width: 768px) {
+    .home-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+  
+    .home-text {
+      text-align: center;
+    }
+  
+    .home-buttons {
+      justify-content: center;
+    }
+  
+    .home-socials {
+      justify-content: center;
+    }
+  
+    .home-page-icon {
+      width: 150px;
+      height: 150px;
+    }
+  }
+  
