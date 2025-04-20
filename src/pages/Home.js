@@ -1,4 +1,4 @@
-import "./Pages.css";
+import "./Home.css";
 import PageTransition from "../components/PageTransition";
 import pro from '../assets/pro.png';
 import { Link } from "react-router-dom";

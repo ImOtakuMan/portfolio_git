@@ -1,5 +1,4 @@
 import PageTransition from "../components/PageTransition";
-import "./Pages.css";
 
 const Home = () => {
     return (
