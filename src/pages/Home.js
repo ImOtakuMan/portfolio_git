@@ -13,7 +13,7 @@ const Home = () => {
         </div>
 
         <div className="home-text">
-          <h1 className="home-title">Cześć, jestem Arek 👋</h1>
+          <h1 className="home-title">Cześć, jestem Arek </h1>
           <p className="home-subtitle">Front-end Developer z pasją do Reacta i UI</p>
           <p className="home-description">
             Tworzę responsywne i nowoczesne aplikacje webowe.  
