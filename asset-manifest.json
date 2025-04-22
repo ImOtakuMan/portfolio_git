@@ -1,14 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio_git/static/css/main.c29fd2e1.css",
-    "main.js": "/portfolio_git/static/js/main.df7aa765.js",
+    "main.css": "/portfolio_git/static/css/main.3806f485.css",
+    "main.js": "/portfolio_git/static/js/main.cfe74b00.js",
     "static/media/pro.png": "/portfolio_git/static/media/pro.a30eacfc570e041024b0.png",
+    "static/media/project1.png": "/portfolio_git/static/media/project1.0986188e66d3624f4b1f.png",
+    "static/media/project6.png": "/portfolio_git/static/media/project6.5d978b34175b1afa4b0b.png",
+    "static/media/project4.png": "/portfolio_git/static/media/project4.5b295657d399ad519949.png",
+    "static/media/project2.png": "/portfolio_git/static/media/project2.dd664679d6a8ad25a58a.png",
+    "static/media/project5.png": "/portfolio_git/static/media/project5.220885378035b9be39ee.png",
+    "static/media/project3.png": "/portfolio_git/static/media/project3.0628ac4bb646e56d988d.png",
     "index.html": "/portfolio_git/index.html",
-    "main.c29fd2e1.css.map": "/portfolio_git/static/css/main.c29fd2e1.css.map",
-    "main.df7aa765.js.map": "/portfolio_git/static/js/main.df7aa765.js.map"
+    "main.3806f485.css.map": "/portfolio_git/static/css/main.3806f485.css.map",
+    "main.cfe74b00.js.map": "/portfolio_git/static/js/main.cfe74b00.js.map"
   },
   "entrypoints": [
-    "static/css/main.c29fd2e1.css",
-    "static/js/main.df7aa765.js"
+    "static/css/main.3806f485.css",
+    "static/js/main.cfe74b00.js"
   ]
 }
