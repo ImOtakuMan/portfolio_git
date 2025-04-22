@@ -130,10 +130,22 @@ const Project = () => {
           <div className="project-card">
             <img src={project6} alt="Project" className="project-img" />
             <h3>Jeszcze nie wiem</h3>
-            <p>Coś co będę chciał zrobić</p>
+            <p>Cos tu dodam.</p>
             <div className="project-links">
-              <button disabled>GitHub</button>
-              <button disabled>Live</button>
+              <a
+                href="https://github.com/twoj-login/magic-shop"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub
+              </a>
+              <a
+                href="https://twoj-login.github.io/magic-shop"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Live
+              </a>
             </div>
           </div>
         </div>
