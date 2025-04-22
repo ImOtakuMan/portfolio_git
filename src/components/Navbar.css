@@ -17,6 +17,7 @@
   width: 350px;
 }
 
+
 .nav-list {
   list-style: none;
   padding: 0;
@@ -124,6 +125,17 @@
   transition: 0.3s;
 }
 
+.close-btn {
+  position: absolute;
+  top: 5px;
+  right:8px;
+  font-size: 0.8rem;
+  color: white;
+  cursor: pointer;
+  z-index: 1100;
+}
+
+
 /* === MOBILE VERSION === */
 @media screen and (max-width: 768px) {
   .hamburger-icon {
@@ -174,3 +186,4 @@
     font-size: 1.5rem;
   }
 }
+

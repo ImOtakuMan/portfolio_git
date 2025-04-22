@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Home, Notebook, AtSign } from "lucide-react";
+import { Home, Notebook, AtSign, Backpack } from "lucide-react";
 import { useState } from "react";
 import pro from "../assets/pro.png";
 import "./Navbar.css";
@@ -10,6 +10,12 @@ const Navbar = () => {
   return (
     <>
       <div className={`sidebar ${isOpen ? "open" : ""}`}>
+      {isOpen && (
+  <div className="close-btn" onClick={() => setIsOpen(false)}>
+    ✖
+  </div>
+)}
+
         <div className="logo-container">
           <img src={pro} alt="Logo Icon" className="logo-icon" />
           <h1 className="logo">My Portfolio</h1>
@@ -32,6 +38,12 @@ const Navbar = () => {
             <Link to="/contact" onClick={() => setIsOpen(false)}>
               <span className="icon"><AtSign /></span>
               <span className="text">Contact</span>
+            </Link>
+          </li>
+          <li>
+            <Link to="/project" onClick={() => setIsOpen(false)}>
+              <span className="icon"><Backpack /></span>
+              <span className="text">Project</span>
             </Link>
           </li>
         </ul>

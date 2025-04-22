@@ -1,7 +1,6 @@
 .about-container {
     display: flex;
     justify-content: center;
-    align-items: center;
     border-radius: 23px;
     padding: 4rem 2rem;
     background-color: #f4f4f8;
